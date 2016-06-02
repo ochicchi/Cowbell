@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CAFC5F1B9188DE00B31A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAFC5E1B9188DE00B31A84 /* AppDelegate.swift */; };
+		D0CAFC611B9188DE00B31A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAFC601B9188DE00B31A84 /* ViewController.swift */; };
+		D0CAFC641B9188DE00B31A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC621B9188DE00B31A84 /* Main.storyboard */; };
+		D0CAFC661B9188DE00B31A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC651B9188DE00B31A84 /* Images.xcassets */; };
+		D0CAFC691B9188DE00B31A84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC671B9188DE00B31A84 /* LaunchScreen.xib */; };
+		D0CAFC751B9188DE00B31A84 /* CowbellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAFC741B9188DE00B31A84 /* CowbellTests.swift */; };
+		D0CAFC811B91894500B31A84 /* cowbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC7E1B91894500B31A84 /* cowbell.mp3 */; };
+		D0CAFC821B91894500B31A84 /* cowbell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC7F1B91894500B31A84 /* cowbell@2x.png */; };
+		D0CAFC831B91894500B31A84 /* cowbell.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC801B91894500B31A84 /* cowbell.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0CAFC6F1B9188DE00B31A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CAFC511B9188DE00B31A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CAFC581B9188DE00B31A84;
+			remoteInfo = Cowbell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0CAFC591B9188DE00B31A84 /* Cowbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cowbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAFC5D1B9188DE00B31A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CAFC5E1B9188DE00B31A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0CAFC601B9188DE00B31A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0CAFC631B9188DE00B31A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0CAFC651B9188DE00B31A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0CAFC681B9188DE00B31A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0CAFC6E1B9188DE00B31A84 /* CowbellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowbellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAFC731B9188DE00B31A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CAFC741B9188DE00B31A84 /* CowbellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowbellTests.swift; sourceTree = "<group>"; };
+		D0CAFC7E1B91894500B31A84 /* cowbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cowbell.mp3; sourceTree = "<group>"; };
+		D0CAFC7F1B91894500B31A84 /* cowbell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cowbell@2x.png"; sourceTree = "<group>"; };
+		D0CAFC801B91894500B31A84 /* cowbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cowbell.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CAFC561B9188DE00B31A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAFC6B1B9188DE00B31A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CAFC501B9188DE00B31A84 = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC5B1B9188DE00B31A84 /* Cowbell */,
+				D0CAFC711B9188DE00B31A84 /* CowbellTests */,
+				D0CAFC5A1B9188DE00B31A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CAFC5A1B9188DE00B31A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC591B9188DE00B31A84 /* Cowbell.app */,
+				D0CAFC6E1B9188DE00B31A84 /* CowbellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CAFC5B1B9188DE00B31A84 /* Cowbell */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC5E1B9188DE00B31A84 /* AppDelegate.swift */,
+				D0CAFC601B9188DE00B31A84 /* ViewController.swift */,
+				D0CAFC621B9188DE00B31A84 /* Main.storyboard */,
+				D0CAFC651B9188DE00B31A84 /* Images.xcassets */,
+				D0CAFC671B9188DE00B31A84 /* LaunchScreen.xib */,
+				D0CAFC7E1B91894500B31A84 /* cowbell.mp3 */,
+				D0CAFC7F1B91894500B31A84 /* cowbell@2x.png */,
+				D0CAFC801B91894500B31A84 /* cowbell.png */,
+				D0CAFC5C1B9188DE00B31A84 /* Supporting Files */,
+			);
+			path = Cowbell;
+			sourceTree = "<group>";
+		};
+		D0CAFC5C1B9188DE00B31A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC5D1B9188DE00B31A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CAFC711B9188DE00B31A84 /* CowbellTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC741B9188DE00B31A84 /* CowbellTests.swift */,
+				D0CAFC721B9188DE00B31A84 /* Supporting Files */,
+			);
+			path = CowbellTests;
+			sourceTree = "<group>";
+		};
+		D0CAFC721B9188DE00B31A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAFC731B9188DE00B31A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CAFC581B9188DE00B31A84 /* Cowbell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAFC781B9188DE00B31A84 /* Build configuration list for PBXNativeTarget "Cowbell" */;
+			buildPhases = (
+				D0CAFC551B9188DE00B31A84 /* Sources */,
+				D0CAFC561B9188DE00B31A84 /* Frameworks */,
+				D0CAFC571B9188DE00B31A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cowbell;
+			productName = Cowbell;
+			productReference = D0CAFC591B9188DE00B31A84 /* Cowbell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0CAFC6D1B9188DE00B31A84 /* CowbellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAFC7B1B9188DE00B31A84 /* Build configuration list for PBXNativeTarget "CowbellTests" */;
+			buildPhases = (
+				D0CAFC6A1B9188DE00B31A84 /* Sources */,
+				D0CAFC6B1B9188DE00B31A84 /* Frameworks */,
+				D0CAFC6C1B9188DE00B31A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CAFC701B9188DE00B31A84 /* PBXTargetDependency */,
+			);
+			name = CowbellTests;
+			productName = CowbellTests;
+			productReference = D0CAFC6E1B9188DE00B31A84 /* CowbellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CAFC511B9188DE00B31A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "*";
+				TargetAttributes = {
+					D0CAFC581B9188DE00B31A84 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D0CAFC6D1B9188DE00B31A84 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D0CAFC581B9188DE00B31A84;
+					};
+				};
+			};
+			buildConfigurationList = D0CAFC541B9188DE00B31A84 /* Build configuration list for PBXProject "Cowbell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CAFC501B9188DE00B31A84;
+			productRefGroup = D0CAFC5A1B9188DE00B31A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CAFC581B9188DE00B31A84 /* Cowbell */,
+				D0CAFC6D1B9188DE00B31A84 /* CowbellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CAFC571B9188DE00B31A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAFC641B9188DE00B31A84 /* Main.storyboard in Resources */,
+				D0CAFC811B91894500B31A84 /* cowbell.mp3 in Resources */,
+				D0CAFC831B91894500B31A84 /* cowbell.png in Resources */,
+				D0CAFC691B9188DE00B31A84 /* LaunchScreen.xib in Resources */,
+				D0CAFC661B9188DE00B31A84 /* Images.xcassets in Resources */,
+				D0CAFC821B91894500B31A84 /* cowbell@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAFC6C1B9188DE00B31A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CAFC551B9188DE00B31A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAFC611B9188DE00B31A84 /* ViewController.swift in Sources */,
+				D0CAFC5F1B9188DE00B31A84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAFC6A1B9188DE00B31A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAFC751B9188DE00B31A84 /* CowbellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0CAFC701B9188DE00B31A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CAFC581B9188DE00B31A84 /* Cowbell */;
+			targetProxy = D0CAFC6F1B9188DE00B31A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0CAFC621B9188DE00B31A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAFC631B9188DE00B31A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0CAFC671B9188DE00B31A84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAFC681B9188DE00B31A84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CAFC761B9188DE00B31A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0CAFC771B9188DE00B31A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CAFC791B9188DE00B31A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cowbell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0CAFC7A1B9188DE00B31A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cowbell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0CAFC7C1B9188DE00B31A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CowbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowbell.app/Cowbell";
+			};
+			name = Debug;
+		};
+		D0CAFC7D1B9188DE00B31A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CowbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cowbell.app/Cowbell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CAFC541B9188DE00B31A84 /* Build configuration list for PBXProject "Cowbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAFC761B9188DE00B31A84 /* Debug */,
+				D0CAFC771B9188DE00B31A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAFC781B9188DE00B31A84 /* Build configuration list for PBXNativeTarget "Cowbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAFC791B9188DE00B31A84 /* Debug */,
+				D0CAFC7A1B9188DE00B31A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAFC7B1B9188DE00B31A84 /* Build configuration list for PBXNativeTarget "CowbellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAFC7C1B9188DE00B31A84 /* Debug */,
+				D0CAFC7D1B9188DE00B31A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CAFC511B9188DE00B31A84 /* Project object */;
+}
