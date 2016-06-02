@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D004B2291CFFAF6B0054234F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D004B2281CFFAF6B0054234F /* README.md */; };
 		D0CAFC5F1B9188DE00B31A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAFC5E1B9188DE00B31A84 /* AppDelegate.swift */; };
 		D0CAFC611B9188DE00B31A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAFC601B9188DE00B31A84 /* ViewController.swift */; };
 		D0CAFC641B9188DE00B31A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CAFC621B9188DE00B31A84 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D004B2281CFFAF6B0054234F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0CAFC591B9188DE00B31A84 /* Cowbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cowbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CAFC5D1B9188DE00B31A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0CAFC5E1B9188DE00B31A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		D0CAFC501B9188DE00B31A84 = {
 			isa = PBXGroup;
 			children = (
+				D004B2281CFFAF6B0054234F /* README.md */,
 				D0CAFC5B1B9188DE00B31A84 /* Cowbell */,
 				D0CAFC711B9188DE00B31A84 /* CowbellTests */,
 				D0CAFC5A1B9188DE00B31A84 /* Products */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D004B2291CFFAF6B0054234F /* README.md in Sources */,
 				D0CAFC611B9188DE00B31A84 /* ViewController.swift in Sources */,
 				D0CAFC5F1B9188DE00B31A84 /* AppDelegate.swift in Sources */,
 			);
